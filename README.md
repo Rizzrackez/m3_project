@@ -14,7 +14,7 @@
 
 Установка всех зависимостей:
 
-```pip install requirements -r requirements.txt```
+```pip install -r requirements.txt```
 
 Установка пакета: ```python setup.py install```
 
