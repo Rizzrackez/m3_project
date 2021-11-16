@@ -110,6 +110,8 @@ class PermissionAddAndEditWindow(BaseEditWindow):
 
         ct = list(ContentType.objects.all())
         ct_dict = tuple(zip(list(range(len(ct))), map(str, ct)))
+        ((id, ContentType.objects.filter(id=id)) for id in range(len(ct)))
+        
 
         self.field__content_type = make_combo_box(
             label=u'content type',
